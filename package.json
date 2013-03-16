@@ -1,0 +1,13 @@
+{
+  "name": "coffeemod-johhny",
+  "version": "0.0.1",
+  "description": "CoffeeMod writting in JavaScript",
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-coffee": "0.6.x",
+    "grunt-regarde": "0.1.x",
+    "johnny-five": "0.5.x"
+  },
+  "devDependencies": {},
+  "author": "David van Leeuwen"
+}
