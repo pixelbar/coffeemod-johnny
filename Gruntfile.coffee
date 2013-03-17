@@ -7,9 +7,6 @@ module.exports = (grunt) ->
             rename: (destBase, destPath) ->
               return destBase + destPath.slice(4, destPath.length).replace(/\.coffee$/, '.js')
           )
-      main:
-        files:
-          'blog/scripts/main.js': 'src/main.coffee'
 
     regarde:
       coffee:
